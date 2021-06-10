@@ -1,0 +1,39 @@
+---
+title: Look who's talking
+subtitle: Language, segregation & networks
+author: Thomas de Graaff
+date: June 16, 2021
+institute: Department of Spatial Economics, Vrije Universiteit Amsterdam
+output: binb::metropolis
+header-includes:
+ - '\makeatletter'
+ - '\beamer@ignorenonframefalse'
+ - '\makeatother'
+fontsize: 12pt
+---
+
+## Roadmap
+
+\begin{columns}
+\begin{column}{.5\textwidth}
+\centering
+\includegraphics[width = 0.8\textwidth]{manco}
+\end{column}
+\begin{column}{.5\textwidth}
+\begin{itemize}
+\item Why look at language? \newline
+\item Language adoption \newline
+\item Language pay-offs 
+\end{itemize}    
+\end{column}
+\end{columns}
+
+## Why bother?
+
+Language facilitates *economic* exchange
+
+- 
+
+## Why bother (part II)?
+
+Language facilitates *cultural* exchange
