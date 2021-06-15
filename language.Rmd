@@ -258,3 +258,10 @@ Possible policies
 - increase incentives: higher wages/job probability when able to speak the native language
 - moving permits for social housing
 - transitory?
+
+
+## Questions/comments?
+
+Get the source of this presentation from
+
+\begin{center}\url{https://github.com/Thdegraaff/language}\end{center}
