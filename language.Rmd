@@ -4,7 +4,12 @@ subtitle: Language, segregation & networks
 author: Thomas de Graaff
 date: June 16, 2021
 institute: Department of Spatial Economics, Vrije Universiteit Amsterdam
-output: binb::metropolis
+output: 
+    binb::metropolis:
+        citation_package: biblatex
+bibliography: language.bib
+biblatexoptions: style= authoryear, natbib=true, giveninits=true, uniquename=init,doi=false,isbn=false,url=false, maxnames=2, maxcitenames=2, maxbibnames=10, dashed =true, useprefix=true
+biblio-title: "References"
 header-includes:
  - '\makeatletter'
  - '\beamer@ignorenonframefalse'
@@ -14,6 +19,7 @@ fontsize: 12pt
 
 ## Roadmap
 
+```{=tex}
 \begin{columns}
 \begin{column}{.5\textwidth}
 \centering
@@ -23,17 +29,232 @@ fontsize: 12pt
 \begin{itemize}
 \item Why look at language? \newline
 \item Language adoption \newline
-\item Language pay-offs 
+\item Returns to language 
 \end{itemize}    
 \end{column}
 \end{columns}
+```
 
-## Why bother?
+## Language, culture and networks (in economics)
 
-Language facilitates *economic* exchange
+\begin{columns}
+\column{2in}	
+\begin{itemize}
+\item Early economic literature on segregation \citep{schellingModelsSegregation1969}
+\item Acquaintances more important for job-seeking than friends \citep{granovetterStrengthWeakTies1973}
+\item Language and culture in economics \citep{lazearCultureLanguage1999,guisoDoesCultureAffect2006, alesinaCultureInstitutions2015, ginsburghEconomicsLanguage2020}
+\end{itemize}
 
-- Common language increase international trade with 20% (Linders et al., 2005) to 50% (Melitz, 2008)
+\column{2in}	
+\includegraphics[width=1.1\textwidth]{granovetter}
+\end{columns}
 
-## Why bother (part II)?
+## Inclusion, identity & conflict
 
-Language facilitates *cultural* exchange
+\begin{columns}
+\column{2in}	
+\begin{itemize}
+\item Pierre Bourdieu
+  \begin{itemize}
+  \item Social capital: ``a durable \alert{network} of more or less institutionalized relationships of mutual acquaintance and recognition'' \newline
+  \end{itemize}
+\item Robert Putnam
+  \begin{itemize}
+  \item \alert{bridging} capital 
+  \item \alert{bonding} capital
+  \end{itemize}
+\end{itemize}
+
+\column{2in}	
+\includegraphics[width=0.8\textwidth]{Bowling_Alone}
+\end{columns}
+
+## Networks and bridges
+
+\centering
+\includegraphics[width=1\textwidth]{bridge}
+
+## Realistically there is a local bridge
+
+\centering
+\includegraphics[width=1\textwidth]{weakties_1}
+
+## Dyads and triads
+
+In empirical (migration) literature: \alert{dyads}---being a group of two things/people/firms:
+
+  - origin-destination
+  - push & pull factors
+  - gravity models with distance-decay
+    
+In network theory: \alert{triads}---being a group of three things (persons):
+
+  - cycles (as opposed to dyads)
+  - network formation
+  
+## Triads can have \alert{closure}
+
+\centering
+\includegraphics[width=1.1\columnwidth]{affiliation}
+
+## Which leads to \alert{homophily} \citep{manskiIdentificationEndogenousSocial1993}
+
+Birds of a feather flock together---three factors at work which are very difficult to identify:
+
+- Social interaction (\alert{endogeneous} effect)
+- Selection (\alert{exogeneous} effect)
+- Contextual (\alert{confounding}) effect
+
+Example: native language adoption of immigrants
+
+- Do immigrants learn a native language because their peers do?
+    - triadic closure
+  
+- Do language learners seek others company
+    - sorting/self-selection (based upon unobservables?)
+  
+- Do contextual effects invoke some groups to adopt a language
+  - Local school subsidies
+
+## Homophily, weak and strong ties
+
+\centering
+    \includegraphics[width=1\textwidth]{weakties_2}
+  
+
+## Why bother with language?
+
+```{=tex}
+\begin{columns}
+\begin{column}{.5\textwidth}
+Language facilitates \alert{economic} exchange
+\begin{itemize}
+\item Common language increases international trade with 20\% \citep{grootInstitutionalDeterminantsBilateral2004} to 50\% \citep{melitzLanguageForeignTrade2008}
+\item Linguistic common roots across Europe correlates highly with \alert{trust} \citep{yuTradeTrustRule2015}
+\end{itemize}
+\end{column}
+\begin{column}{.5\textwidth}
+   \includegraphics[width = 1.0\textwidth]{tree}
+\end{column}
+\end{columns}
+```
+## Why bother with language (part II)?
+
+Language facilitates \alert{cultural} exchange \citep{ginsburghEconomicsLanguage2020}
+
+- language often proxies culture \citep{stulzCultureOpennessFinance2003}
+- language proxies \alert{slow-changing} culture
+    
+    - adopting a new language invokes large costs
+    - ones own language learned within the household
+    
+- type of language (pronouns, the gender associated with words) \alert{might} be correlated with socio-economic behaviour---Sapir-Whorf hypothesis \citep{ginsburghEconomicsLanguage2020}
+
+## Language adoption---stylized facts (PEW research, 2019)
+
+\centering
+    \includegraphics[width=0.6\textwidth]{linguistic_diversity}
+    
+## Language adoption---stylized facts II 
+
+For 2018, the migration observatory noted for the UK 
+
+- From 3,200,000 foreign-born adults, 1,600,000 speak English as first language at home
+
+- 320,000 of the foreign-born reported experiencing problems in work or education as a result of their limited English language skills
+
+- Use of English increases over time: in 2018, about 68% of the foreign-born population residing in the UK for at least 15 years had English as their first language at home, up from 29% of those who had been in the country for 0--2 years
+
+## Language adoption---stylized facts III 
+
+\centering
+    \includegraphics[width=1\textwidth]{first_language}
+
+(source: The Migration Observatory, at the University of Oxford, 2021)
+
+## Returns to using a language 
+
+\centering
+    \includegraphics[width=1\textwidth]{pay_offs_uk}
+
+(source: The Migration Observatory, at the University of Oxford, 2021)
+
+## Returns to using a language II
+
+- For migrants: Being able to speak the native language is key to integration and returns on the labor market     
+    - +20\% (Chiswick and Miller, 1995), +35\% (Chiswick, 1999) and +33\% (Bleakley and Chin, 2004, 2010) on earnings
+
+- For natives: Being able to speak a foreign language is an important human capital asset}
+    - +3/+5\% on earnings (Williams, 2011), (much) higher conditional on the share of people speaking that language (Ginsburgh and Prieto-Rodriguez, 2010)
+	- English in a growing number of professions, but specific languages (Mandarin, French, Russian) for specific professions/firms
+
+
+## Returns to foreign language and educational level
+\begin{figure}[h!]
+	\label{fig:demo}
+	\centering
+	\begin{minipage}{\textwidth}
+		\includegraphics[height=5.5cm,width=6cm]{hwnb.pdf}\hfill
+		\includegraphics[height=5.5cm,width=6cm]{hwfb.pdf}
+	\end{minipage}
+\end{figure}
+
+
+## Assimilation of foreign born workers with/without knowledge of LL speaking a foreign language
+\begin{figure}[h!]
+	\label{fig:demo1}
+	\begin{center}
+		\includegraphics[width = 0.6\textwidth]{YSM_impact_by_MT_type}
+	\end{center}
+\end{figure}
+
+## A cost-benefit approach to language adoption
+
+\begin{columns}
+\column{2in}
+Individual benefits
+\begin{itemize}
+    \item higher wages
+    \item less unemployment
+\end{itemize}
+Individual costs
+\begin{itemize}
+    \item time/effort
+    \item opportunity costs
+\end{itemize}
+
+\column{2in}	
+\includegraphics[width=1.1\textwidth]{network_size}
+\end{columns}
+
+## Decreasing benefits in community size?
+
+So, in strong \alert{communities} with high bonding capital (strong ties) and less bridging capital (weak ties)
+
+- language proficiency decrease \citep{lazearCultureLanguage1999}
+
+- depends on spatial scale, for neighborhoods yes, for cities no \citep{floraxSpatialEconomicPerspective2005}
+
+- communities not only the place where people live, but also where they work \citep{beckhusenLivingWorkingEthnic2013}
+
+## Measurement issues---MAUP!
+
+\begin{columns}
+\column{2in}
+\includegraphics[width=1.0\textwidth]{county}
+
+\column{2in}	
+\includegraphics[width=1.0\textwidth]{census_track}
+\end{columns}
+
+
+## Policy issues
+
+Language proficiency is beneficial for the individual---but sometimes incentives too low because of persistent network formation
+
+Possible policies
+
+- decrease costs: schooling at the national level (note that schooling in a different language increases identity---well documented are Basque, Catalan, Arabic and Frisian languages)
+- increase incentives: higher wages/job probability when able to speak the native language
+- moving permits for social housing
+- transitory?

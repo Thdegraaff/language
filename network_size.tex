@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz,pgfplots}
+\pgfplotsset{compat=1.13}
+\pgfplotsset{ytick style={draw=none}, xmajorticks = false}
+\pgfplotsset{xtick style={draw=none}, ymajorticks = false}
+\begin{document}
+
+\begin{tikzpicture}\begin{axis}[
+domain=0.1:2,
+xlabel={Community size},
+ylabel={language proficiency}
+]
+\addplot[no marks, samples =1000] {x^-0.2};
+\end{axis}
+
+
+\end{tikzpicture}
+
+
+\end{document}

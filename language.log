@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.8)  10 JUN 2021 11:47
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.8)  15 JUN 2021 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,36 +1365,243 @@ LaTeX Info: Redefining \lsstyle on input line 255.
 Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count294
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty (/usr/loc
+al/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count295
+\decimalpart=\count296
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count297
+\c@listtotal=\count298
+\c@listcount=\count299
+\c@liststart=\count300
+\c@liststop=\count301
+\c@citecount=\count302
+\c@citetotal=\count303
+\c@multicitecount=\count304
+\c@multicitetotal=\count305
+\c@instcount=\count306
+\c@maxnames=\count307
+\c@minnames=\count308
+\c@maxitems=\count309
+\c@minitems=\count310
+\c@citecounter=\count311
+\c@savedcitecounter=\count312
+\c@uniquelist=\count313
+\c@uniquename=\count314
+\c@refsection=\count315
+\c@refsegment=\count316
+\c@maxextratitle=\count317
+\c@maxextratitleyear=\count318
+\c@maxextrayear=\count319
+\c@maxextraalpha=\count320
+\c@abbrvpenalty=\count321
+\c@highnamepenalty=\count322
+\c@lownamepenalty=\count323
+\c@maxparens=\count324
+\c@parenlevel=\count325
+\blx@tempcnta=\count326
+\blx@tempcntb=\count327
+\blx@tempcntc=\count328
+\blx@maxsection=\count329
+\blx@maxsegment@0=\count330
+\blx@notetype=\count331
+\blx@parenlevel@text=\count332
+\blx@parenlevel@foot=\count333
+\blx@sectionciteorder@0=\count334
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\biblabelsep=\skip77
+\bibitemsep=\skip78
+\bibnamesep=\skip79
+\bibinitsep=\skip80
+\bibparsep=\skip81
+\bibhang=\skip82
+\blx@bcfin=\read3
+\blx@bcfout=\write6
+\c@mincomprange=\count335
+\c@maxcomprange=\count336
+\c@mincompwidth=\count337
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count338
+\c@savedafterword=\count339
+\c@annotator=\count340
+\c@savedannotator=\count341
+\c@author=\count342
+\c@savedauthor=\count343
+\c@bookauthor=\count344
+\c@savedbookauthor=\count345
+\c@commentator=\count346
+\c@savedcommentator=\count347
+\c@editor=\count348
+\c@savededitor=\count349
+\c@editora=\count350
+\c@savededitora=\count351
+\c@editorb=\count352
+\c@savededitorb=\count353
+\c@editorc=\count354
+\c@savededitorc=\count355
+\c@foreword=\count356
+\c@savedforeword=\count357
+\c@holder=\count358
+\c@savedholder=\count359
+\c@introduction=\count360
+\c@savedintroduction=\count361
+\c@namea=\count362
+\c@savednamea=\count363
+\c@nameb=\count364
+\c@savednameb=\count365
+\c@namec=\count366
+\c@savednamec=\count367
+\c@translator=\count368
+\c@savedtranslator=\count369
+\c@shortauthor=\count370
+\c@savedshortauthor=\count371
+\c@shorteditor=\count372
+\c@savedshorteditor=\count373
+\c@labelname=\count374
+\c@savedlabelname=\count375
+\c@institution=\count376
+\c@savedinstitution=\count377
+\c@lista=\count378
+\c@savedlista=\count379
+\c@listb=\count380
+\c@savedlistb=\count381
+\c@listc=\count382
+\c@savedlistc=\count383
+\c@listd=\count384
+\c@savedlistd=\count385
+\c@liste=\count386
+\c@savedliste=\count387
+\c@listf=\count388
+\c@savedlistf=\count389
+\c@location=\count390
+\c@savedlocation=\count391
+\c@organization=\count392
+\c@savedorganization=\count393
+\c@origlocation=\count394
+\c@savedoriglocation=\count395
+\c@origpublisher=\count396
+\c@savedorigpublisher=\count397
+\c@publisher=\count398
+\c@savedpublisher=\count399
+\c@language=\count400
+\c@savedlanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip83
+\shortjournalwidth=\skip84
+\shortserieswidth=\skip85
+\shorttitlewidth=\skip86
+\shortauthorwidth=\skip87
+\shorteditorwidth=\skip88
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
 ))
-Package hyperref Info: Option `breaklinks' set `true' on input line 55.
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 59.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+\@quotelevel=\count413
+\@quotereset=\count414
 (./language.aux)
 \openout1 = `language.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 126.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    ... okay on input line 126.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1431,83 +1638,83 @@ LaTeX Font Info:    ... okay on input line 122.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 122.
+Package hyperref Info: Link coloring OFF on input line 126.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count415
 )
-LaTeX Info: Redefining \ref on input line 122.
-LaTeX Info: Redefining \pageref on input line 122.
-LaTeX Info: Redefining \nameref on input line 122.
+LaTeX Info: Redefining \ref on input line 126.
+LaTeX Info: Redefining \pageref on input line 126.
+LaTeX Info: Redefining \nameref on input line 126.
 (./language.out) (./language.out)
-\@outlinefile=\write5
-\openout5 = `language.out'.
+\@outlinefile=\write7
+\openout7 = `language.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 122.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 122.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmss/m/n --> OT1/FiraSansLight(0)/m/n on input line
- 122.
+ 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmss/bx/n --> OT1/FiraSansLight(0)/bx/n on input li
-ne 122.
+ne 126.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/FiraSansLight(0)/m/n --> TU/lmr/m/n on input line 1
-22.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 122.
+26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/lmr/bx/n --> TU/FiraSansLight(0)/bx/n on input line
- 122.
+ 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/FiraSansLight(0)/bx/n on input line
- 122.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 122.
+ 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/lmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-122.
+126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/lmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 122.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 122.
+ 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> TU/FiraSansLight(0)/m/it on input line
- 122.
+ 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/lmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
-e 122.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 122.
+e 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 122.
+(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 122.
+(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 126.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/bx/n on
- input line 122.
+ input line 126.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/bx/it 
-on input line 122.
+on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/FiraSansLight(0)/bx/n --> TU/lmr/bx/n on input line
- 122.
+ 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/bx/n --> TU/FiraSansLight(0)/bx/n o
-n input line 122.
+n input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/bx/n on
- input line 122.
+ input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/bx/it 
-on input line 122.
+on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/bx/n on input lin
-e 122.
+e 126.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1533,8 +1740,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 122.
-LaTeX Info: Redefining \microtypecontext on input line 122.
+LaTeX Info: Redefining \includegraphics on input line 126.
+LaTeX Info: Redefining \microtypecontext on input line 126.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -2174,21 +2381,32 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                in font encoding `TU' in inheritance list
 (microtype)                `microtype.cfg/358(protrusion)'.
 
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `language.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'language.bbl' found.
+(./language.bbl)
+Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference segment=0 on input line 126.
 (./language.nav)
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 4.94458pt on input line 122.
+(Font)              scaled to size 4.94458pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 6.59277pt on input line 122.
+(Font)              scaled to size 6.59277pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 14.24039pt on input line 127.
+(Font)              scaled to size 14.24039pt on input line 131.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/bx/n' will be
-(Font)              scaled to size 14.13228pt on input line 127.
+(Font)              scaled to size 14.13228pt on input line 131.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 11.86697pt on input line 127.
+(Font)              scaled to size 11.86697pt on input line 131.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 9.02385pt on input line 127.
+(Font)              scaled to size 9.02385pt on input line 131.
 
-Overfull \vbox (16.67491pt too high) detected at line 127
+Overfull \vbox (16.67491pt too high) detected at line 131
  []
 
 [1
@@ -2197,91 +2415,244 @@ Overfull \vbox (16.67491pt too high) detected at line 127
 File: manco.jpg Graphic file (type QTm)
 <use  "manco.jpg" >
 LaTeX Font Info:    Try loading font information for OT1+FiraSansLight(0) on in
-put line 146.
-LaTeX Font Info:    No file OT1FiraSansLight(0).fd. on input line 146.
+put line 150.
+LaTeX Font Info:    No file OT1FiraSansLight(0).fd. on input line 150.
 
 LaTeX Font Warning: Font shape `OT1/FiraSansLight(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 146.
+(Font)              using `OT1/cmr/m/n' instead on input line 150.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 146.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 150.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 146
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 150
 .
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 146
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 150
 .
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 146.
+(Font)              <12> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 146.
+(Font)              <8> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 146.
-LaTeX Font Info:    Try loading font information for U+msa on input line 146.
+(Font)              <6> on input line 150.
+LaTeX Font Info:    Try loading font information for U+msa on input line 150.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 146.
+LaTeX Font Info:    Try loading font information for U+msb on input line 150.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 9.88916pt on input line 146.
+(Font)              scaled to size 9.88916pt on input line 150.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 6.59277pt on input line 146.
+(Font)              scaled to size 6.59277pt on input line 150.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 4.94458pt on input line 146.
+(Font)              scaled to size 4.94458pt on input line 150.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/bx/n' will be
-(Font)              scaled to size 11.77689pt on input line 146.
+(Font)              scaled to size 11.77689pt on input line 150.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 3.29639pt on input line 146.
+(Font)              scaled to size 3.29639pt on input line 150.
 [2
 
-] [3
+]
+File: granovetter.png Graphic file (type QTm)
+<use  "granovetter.png" >
+Overfull \hbox (14.45488pt too wide) in paragraph at lines 165--165
+[][]  
+ []
 
-] [4
+
+Overfull \vbox (13.64307pt too high) detected at line 165
+ []
+
+[3
 
 ]
-\tf@nav=\write6
-\openout6 = `language.nav'.
+File: Bowling_Alone.jpg Graphic file (type QTm)
+<use  "Bowling_Alone.jpg" > [4
 
-\tf@toc=\write7
-\openout7 = `language.toc'.
+]
+File: bridge.png Graphic file (type QTm)
+<use  "bridge.png" > [5
 
-\tf@snm=\write8
-\openout8 = `language.snm'.
+]
+File: weakties_1.png Graphic file (type QTm)
+<use  "weakties_1.png" >
+Overfull \vbox (36.1828pt too high) detected at line 200
+ []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+[6
+
+] [7
+
+]
+File: affiliation.png Graphic file (type QTm)
+<use  "affiliation.png" >
+Overfull \hbox (30.73085pt too wide) in paragraph at lines 234--234
+ [][] 
+ []
+
+[8
+
+]
+Overfull \vbox (11.60764pt too high) detected at line 281
+ []
+
+[9
+
+]
+File: weakties_2.png Graphic file (type QTm)
+<use  "weakties_2.png" >
+Overfull \vbox (21.09679pt too high) detected at line 288
+ []
+
+[10
+
+]
+File: tree.pdf Graphic file (type QTm)
+<use  "tree.pdf" > [11
+
+] [12
+
+]
+File: linguistic_diversity.png Graphic file (type QTm)
+<use  "linguistic_diversity.png" >
+Overfull \vbox (8.99553pt too high) detected at line 337
+ []
+
+[13
+
+] [14
+
+]
+File: first_language.png Graphic file (type QTm)
+<use  "first_language.png" > [15
+
+]
+File: pay_offs_uk.png Graphic file (type QTm)
+<use  "pay_offs_uk.png" > [16
+
+] [17
+
+]
+File: hwnb.pdf Graphic file (type QTm)
+<use  "hwnb.pdf" >
+File: hwfb.pdf Graphic file (type QTm)
+<use  "hwfb.pdf" >
+Overfull \hbox (34.14796pt too wide) in paragraph at lines 417--417
+[][] [] 
+ []
+
+[18
+
+]
+File: YSM_impact_by_MT_type.pdf Graphic file (type QTm)
+<use  "YSM_impact_by_MT_type.pdf" >
+Overfull \vbox (3.5886pt too high) detected at line 428
+ []
+
+[19
+
+]
+File: network_size.pdf Graphic file (type QTm)
+<use  "network_size.pdf" >
+Overfull \hbox (14.45488pt too wide) in paragraph at lines 448--448
+[][]  
+ []
+
+[20
+
+] [21
+
+]
+File: county.png Graphic file (type QTm)
+<use  "county.png" >
+File: census_track.png Graphic file (type QTm)
+<use  "census_track.png" > [22
+
+] [23
+
+]
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 9.81409pt on input line 505.
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" > [24
+
+] [25
+
+
+] [26
+
+
+]
+\tf@nav=\write8
+\openout8 = `language.nav'.
+
+\tf@toc=\write9
+\openout9 = `language.toc'.
+
+\tf@snm=\write10
+\openout10 = `language.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 508.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 508.
 (./language.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 508.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 508.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package logreq Info: Writing requests to 'language.run.xml'.
+\openout1 = `language.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 34303 strings out of 493005
- 695285 string characters out of 6134596
- 772932 words of memory out of 5000000
- 37653 multiletter control sequences out of 15000+600000
- 8573 words of font info for 61 fonts, out of 8000000 for 9000
+ 40583 strings out of 493005
+ 813817 string characters out of 6134596
+ 1272059 words of memory out of 5000000
+ 43859 multiletter control sequences out of 15000+600000
+ 8581 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 71i,13n,146p,10406b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,146p,10406b,5244s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on language.pdf (4 pages).
+Output written on language.pdf (26 pages).
