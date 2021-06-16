@@ -28,8 +28,8 @@ fontsize: 12pt
 \begin{column}{.5\textwidth}
 \begin{itemize}
 \item Why look at language? \newline
-\item Language adoption \newline
-\item Returns to language 
+\item Returns to language \newline
+\item Language adoption
 \end{itemize}    
 \end{column}
 \end{columns}
@@ -74,7 +74,7 @@ fontsize: 12pt
 \centering
 \includegraphics[width=1\textwidth]{bridge}
 
-## Realistically there is a local bridge
+## Realistically there is a \alert{local} bridge
 
 \centering
 \includegraphics[width=1\textwidth]{weakties_1}
@@ -87,10 +87,10 @@ In empirical (migration) literature: \alert{dyads}---being a group of two things
   - push & pull factors
   - gravity models with distance-decay
     
-In network theory: \alert{triads}---being a group of three things (persons):
+In network theory: \alert{triads}---being a group of (at least) three things (persons):
 
-  - cycles (as opposed to dyads)
   - network formation
+  - \alert{social behaviour} (interaction)
   
 ## Triads can have \alert{closure}
 
@@ -108,7 +108,7 @@ Birds of a feather flock together---three factors at work which are very difficu
 Example: native language adoption of immigrants
 
 - Do immigrants learn a native language because their peers do?
-    - triadic closure
+    - membership closure
   
 - Do language learners seek others company
     - sorting/self-selection (based upon unobservables?)
@@ -122,7 +122,7 @@ Example: native language adoption of immigrants
     \includegraphics[width=1\textwidth]{weakties_2}
   
 
-## Why bother with language?
+## Why \alert{bother} with language?
 
 ```{=tex}
 \begin{columns}
@@ -138,7 +138,7 @@ Language facilitates \alert{economic} exchange
 \end{column}
 \end{columns}
 ```
-## Why bother with language (part II)?
+## Why \alert{bother} with language (part II)?
 
 Language facilitates \alert{cultural} exchange \citep{ginsburghEconomicsLanguage2020}
 
@@ -149,6 +149,57 @@ Language facilitates \alert{cultural} exchange \citep{ginsburghEconomicsLanguage
     - ones own language learned within the household
     
 - type of language (pronouns, the gender associated with words) \alert{might} be correlated with socio-economic behaviour---Sapir-Whorf hypothesis \citep{ginsburghEconomicsLanguage2020}
+
+## Returns to using a language 
+
+\centering
+    \includegraphics[width=1\textwidth]{pay_offs_uk}
+
+(source: The Migration Observatory, at the University of Oxford, 2021)
+
+## Returns to using a language II
+
+- For \alert{migrants}: Being able to speak the native language is key to integration and returns on the labor market     
+    - +20\% \citep{chiswickEndogeneityLanguageEarnings1995}, +35\% \citep{chiswickAreImmigrantsFavorably1999} and +33\% \citep{bleakleyLanguageSkillsEarnings2004, bleakleyAgeArrivalEnglish2010} on earnings
+
+- For \alert{natives}: Being able to speak a foreign language is an important human capital asset
+    - +3/+5\% on earnings \citep{williamsMultipleLanguageUsage2011}, (much) higher conditional on the share of people speaking that language \citep{ginsburghReturnsForeignLanguages2011}
+	- English in a growing number of professions, but specific languages (Mandarin, French, Russian) for specific \alert{professions/firms}
+
+## But what about using a non-native language for migrants on the job? (Wang & de Graaff, 2016)
+
+- Three \alert{types} of languages for migrants 
+    - Mother tongue
+    - Local/Native language 
+    - Foreign language
+
+- Small literature, but positive effects for \alert{natives} \citep{isphordingReturnsForeignLanguage2013}
+
+- For \alert{migrants} effect ambiguous
+    - Using a foreign language at work crowds out learning the local language; opportunity costs
+    - Mother tongue may be a valuable asset (Mandarin, Russian)
+    - highly dependent on type of \alert{skill level} & \alert{occupation}
+    
+## Returns to foreign language and educational level (Wang & de Graaff, 2016)
+
+\begin{figure}[h!]
+	\label{fig:demo}
+	\centering
+	\begin{minipage}{\textwidth}
+		\includegraphics[height=5.5cm,width=5.8cm]{hwnb.pdf}\hfill
+		\includegraphics[height=5.5cm,width=5.8cm]{hwfb.pdf}
+	\end{minipage}
+\end{figure}
+
+low-skilled immigrants earn \alert{less} when using a foreign language!
+
+## Assimilation of foreign born workers with/without knowledge of LL speaking a foreign language
+\begin{figure}[h!]
+	\label{fig:demo1}
+	\begin{center}
+		\includegraphics[width = 0.6\textwidth]{YSM_impact_by_MT_type}
+	\end{center}
+\end{figure}
 
 ## Language adoption---stylized facts (PEW research, 2019)
 
@@ -171,42 +222,6 @@ For 2018, the migration observatory noted for the UK
     \includegraphics[width=1\textwidth]{first_language}
 
 (source: The Migration Observatory, at the University of Oxford, 2021)
-
-## Returns to using a language 
-
-\centering
-    \includegraphics[width=1\textwidth]{pay_offs_uk}
-
-(source: The Migration Observatory, at the University of Oxford, 2021)
-
-## Returns to using a language II
-
-- For migrants: Being able to speak the native language is key to integration and returns on the labor market     
-    - +20\% (Chiswick and Miller, 1995), +35\% (Chiswick, 1999) and +33\% (Bleakley and Chin, 2004, 2010) on earnings
-
-- For natives: Being able to speak a foreign language is an important human capital asset}
-    - +3/+5\% on earnings (Williams, 2011), (much) higher conditional on the share of people speaking that language (Ginsburgh and Prieto-Rodriguez, 2010)
-	- English in a growing number of professions, but specific languages (Mandarin, French, Russian) for specific professions/firms
-
-
-## Returns to foreign language and educational level
-\begin{figure}[h!]
-	\label{fig:demo}
-	\centering
-	\begin{minipage}{\textwidth}
-		\includegraphics[height=5.5cm,width=6cm]{hwnb.pdf}\hfill
-		\includegraphics[height=5.5cm,width=6cm]{hwfb.pdf}
-	\end{minipage}
-\end{figure}
-
-
-## Assimilation of foreign born workers with/without knowledge of LL speaking a foreign language
-\begin{figure}[h!]
-	\label{fig:demo1}
-	\begin{center}
-		\includegraphics[width = 0.6\textwidth]{YSM_impact_by_MT_type}
-	\end{center}
-\end{figure}
 
 ## A cost-benefit approach to language adoption
 
@@ -237,7 +252,10 @@ So, in strong \alert{communities} with high bonding capital (strong ties) and le
 
 - communities not only the place where people live, but also where they work \citep{beckhusenLivingWorkingEthnic2013}
 
-## Measurement issues---MAUP!
+## Measurement issues
+
+- Self-reporting language proficiency \citep{dustmannLanguageFluencyEarnings2001}
+- \alert{MAUP}---Modifiable Areal Unit Problem\newline
 
 \begin{columns}
 \column{2in}
@@ -250,15 +268,14 @@ So, in strong \alert{communities} with high bonding capital (strong ties) and le
 
 ## Policy issues
 
-Language proficiency is beneficial for the individual---but sometimes incentives too low because of persistent network formation
+Native language proficiency is beneficial for the \alert{individual}---but sometimes incentives too low because of persistent network formation
 
-Possible policies
+Possible (?) policies
 
-- decrease costs: schooling at the national level (note that schooling in a different language increases identity---well documented are Basque, Catalan, Arabic and Frisian languages)
+- decrease costs: schooling at the national level (note that schooling in a different language increases \alert{local} identity---Basque, Catalan, Arabic and Frisian languages)
 - increase incentives: higher wages/job probability when able to speak the native language
 - moving permits for social housing
-- transitory?
-
+- transitory---but what is the \alert{covergence} rate?
 
 ## Questions/comments?
 

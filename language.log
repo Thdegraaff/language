@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.8)  15 JUN 2021 13:12
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.8)  16 JUN 2021 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2531,67 +2531,73 @@ File: tree.pdf Graphic file (type QTm)
 ] [12
 
 ]
-File: linguistic_diversity.png Graphic file (type QTm)
-<use  "linguistic_diversity.png" >
-Overfull \vbox (8.99553pt too high) detected at line 337
+File: pay_offs_uk.png Graphic file (type QTm)
+<use  "pay_offs_uk.png" > [13
+
+]
+Overfull \vbox (3.82324pt too high) detected at line 372
  []
 
-[13
+[14
 
-] [14
-
-]
-File: first_language.png Graphic file (type QTm)
-<use  "first_language.png" > [15
-
-]
-File: pay_offs_uk.png Graphic file (type QTm)
-<use  "pay_offs_uk.png" > [16
-
-] [17
+] [15
 
 ]
 File: hwnb.pdf Graphic file (type QTm)
 <use  "hwnb.pdf" >
 File: hwfb.pdf Graphic file (type QTm)
 <use  "hwfb.pdf" >
-Overfull \hbox (34.14796pt too wide) in paragraph at lines 417--417
+Overfull \hbox (22.76979pt too wide) in paragraph at lines 423--423
 [][] [] 
  []
 
-[18
+[16
 
 ]
 File: YSM_impact_by_MT_type.pdf Graphic file (type QTm)
 <use  "YSM_impact_by_MT_type.pdf" >
-Overfull \vbox (3.5886pt too high) detected at line 428
+Overfull \vbox (3.5886pt too high) detected at line 434
  []
 
-[19
+[17
+
+]
+File: linguistic_diversity.png Graphic file (type QTm)
+<use  "linguistic_diversity.png" >
+Overfull \vbox (8.99553pt too high) detected at line 441
+ []
+
+[18
+
+] [19
+
+]
+File: first_language.png Graphic file (type QTm)
+<use  "first_language.png" > [20
 
 ]
 File: network_size.pdf Graphic file (type QTm)
 <use  "network_size.pdf" >
-Overfull \hbox (14.45488pt too wide) in paragraph at lines 448--448
+Overfull \hbox (14.45488pt too wide) in paragraph at lines 489--489
 [][]  
  []
 
-[20
+[21
 
-] [21
+] [22
 
 ]
 File: county.png Graphic file (type QTm)
 <use  "county.png" >
 File: census_track.png Graphic file (type QTm)
-<use  "census_track.png" > [22
+<use  "census_track.png" > [23
 
-] [23
+] [24
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.81409pt on input line 506.
-[24
+(Font)              scaled to size 9.81409pt on input line 557.
+[25
 
 ]
 File: beamericonarticle.pdf Graphic file (type QTm)
@@ -2619,12 +2625,37 @@ File: beamericonarticle.pdf Graphic file (type QTm)
 File: beamericonarticle.pdf Graphic file (type QTm)
 <use  "beamericonarticle.pdf" >
 File: beamericonarticle.pdf Graphic file (type QTm)
-<use  "beamericonarticle.pdf" > [25
-
-] [26
-
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" >
+File: beamericonarticle.pdf Graphic file (type QTm)
+<use  "beamericonarticle.pdf" > [26
 
 ] [27
+
+
+] [28
+
+
+] [29
+
+
+] [30
+
+
+] [31
 
 
 ]
@@ -2637,11 +2668,11 @@ File: beamericonarticle.pdf Graphic file (type QTm)
 \tf@snm=\write10
 \openout10 = `language.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
 (./language.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 515.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 515.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 566.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2650,12 +2681,12 @@ Package logreq Info: Writing requests to 'language.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40585 strings out of 493005
- 813833 string characters out of 6134596
- 1271115 words of memory out of 5000000
- 43861 multiletter control sequences out of 15000+600000
+ 40650 strings out of 493005
+ 815831 string characters out of 6134596
+ 1277091 words of memory out of 5000000
+ 43926 multiletter control sequences out of 15000+600000
  8581 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,13n,146p,10406b,5244s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on language.pdf (27 pages).
+Output written on language.pdf (31 pages).
